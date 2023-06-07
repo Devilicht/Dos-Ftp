@@ -29,12 +29,12 @@ Implementation Details
 
 The program utilizes the following libraries and functions:
 
-- <stdio.h> and <stdlib.h>: Standard input/output functions and memory allocation functions.
-- <string.h>: String manipulation functions.
-- <netdb.h>: Network database operations.
-- <arpa/inet.h>: Definitions for internet operations.
-- <sys/socket.h>: Definitions for socket operations.
-- <unistd.h>: POSIX operating system API functions.
+- **<stdio.h>** and **<stdlib.h>**: Standard input/output functions and memory allocation functions.
+- **<string.h>**: String manipulation functions.
+- **<netdb.h>**: Network database operations.
+- **<arpa/inet.h>**: Definitions for internet operations.
+- **<sys/socket.h>**: Definitions for socket operations.
+- **<unistd.h>**: POSIX operating system API functions.
 
 The connectToFTP function is responsible for establishing a connection with the FTP server. It creates a socket, converts the IP address to the required format, and connects to the server using the connect function. The function will display a message indicating a successful connection.
 
